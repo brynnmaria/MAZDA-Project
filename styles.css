@@ -47,7 +47,8 @@
 .hero-container {
   position: relative;
   background-color: black;
-  height: 100vh;
+ /*  height: 100vh; */
+  height: 683px;
   width: 100%;
   background-image: url('images/mazda.jpeg');
   /* box-shadow: inset 100px 0px 100px 0px #000; */
@@ -302,12 +303,12 @@
 @media only screen and (max-width: 576px){
 
 
-.row>*{
+/*  .row>*{
   
   padding-right: 0 !important;
   padding-left: 0 !important;
  
-  }
+  }  */
 
   .hero-text-container{
     padding: 22px 24px;
@@ -512,12 +513,12 @@
   /* S Overrides */
   @media only screen and (max-width: 768px) and (min-width: 577px){
 
-    .row>*{
+     /* .row>*{
   
-      padding-right: 0 !important;
-      padding-left: 0 !important;
+        padding-right: 0 !important;
+        padding-left: 0 !important;
      
-      }
+      }  */
     
     .hero-text-container{
       padding: 22px 24px;
@@ -721,12 +722,12 @@
   @media only screen and (max-width: 998px) and (min-width: 769px){
 
 
-    .row>*{
+   /*   .row>*{
   
-      padding-right: 0 !important;
+      padding-right: 0 !important; 
       padding-left: 0 !important;
-     
-      }
+    
+      }  */
 
     .hero-text-container{
       padding: 22px 24px;
